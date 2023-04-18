@@ -1,0 +1,141 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url(images/pexels-pixabay-260352.jpg);
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 43px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+
+.mid {
+    display: block;
+    width: 45%;
+    margin: 29px auto;
+    /* border: 2px solid green; */
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 31px;
+    top: 20px;
+    font-family: 'Sedgwick Ave Display', cursive;
+    line-height: 22px;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a {
+    color: black;
+    text-decoration: none;
+    padding: 34px 29px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: rgb(56, 18, 223);
+
+}
+
+.left img {
+    width: 80px;
+}
+
+.left div {
+    text-align: center;
+}
+
+.btn {
+    color: black;
+    margin: 0px 4px;
+    padding: 1px 7px;
+    background-color: transparent;
+    border-radius: 9px;
+
+}
+
+.btn:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.container {
+    /* border: 18px solid black; */
+    margin: 98px 159px;
+    padding: 43px 72px;
+    margin-bottom: 16px;
+}
+
+.heading {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-size: 78px;
+}
+
+.form {
+    border: 9px solid rgb(54, 37, 202);
+    width: 20%;
+    margin: auto;
+    padding: 5px 81px;
+}
+
+.input1 {
+    margin: auto;
+    padding: 6px;
+}
+
+input {
+    width: 231px;
+    height: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(177, 187, 201);
+    border-radius: 16px;
+    text-align: center;
+
+}
+
+h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    text-align: center;
+}
+
+.btn1 {
+    margin: 9px auto;
+    display: block;
+    width: 88px;
+    padding: 5px;
+    border: 3px solid black;
+    border-radius: 14px;
+}
+
+.imgbody img {
+    width: 284px;
+    margin: 130px 190px;
+    margin-bottom: 50px;
+}
+
+.text{
+    /* border: 2px solid black; */
+    font-size: 25px;
+    width: 40%;
+    margin: auto;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Bebas Neue', cursive;
+}
